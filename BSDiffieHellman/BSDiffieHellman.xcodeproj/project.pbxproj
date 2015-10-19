@@ -13,6 +13,7 @@
 		9CBC23931BD50A8200DDA598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBC23921BD50A8200DDA598 /* Assets.xcassets */; };
 		9CBC23961BD50A8200DDA598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBC23941BD50A8200DDA598 /* LaunchScreen.storyboard */; };
 		9CBC23A11BD50A8200DDA598 /* BSDiffieHellmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC23A01BD50A8200DDA598 /* BSDiffieHellmanTests.m */; };
+		9CBC23AD1BD5129400DDA598 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC23AC1BD5129400DDA598 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 		9CBC239C1BD50A8200DDA598 /* BSDiffieHellmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSDiffieHellmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBC23A01BD50A8200DDA598 /* BSDiffieHellmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSDiffieHellmanTests.m; sourceTree = "<group>"; };
 		9CBC23A21BD50A8200DDA598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBC23AB1BD5129400DDA598 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9CBC23AC1BD5129400DDA598 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				9CBC23861BD50A8200DDA598 /* AppDelegate.h */,
 				9CBC23871BD50A8200DDA598 /* AppDelegate.m */,
+				9CBC23AB1BD5129400DDA598 /* MainViewController.h */,
+				9CBC23AC1BD5129400DDA598 /* MainViewController.m */,
 				9CBC238F1BD50A8200DDA598 /* Main.storyboard */,
 				9CBC23921BD50A8200DDA598 /* Assets.xcassets */,
 				9CBC23941BD50A8200DDA598 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CBC23881BD50A8200DDA598 /* AppDelegate.m in Sources */,
+				9CBC23AD1BD5129400DDA598 /* MainViewController.m in Sources */,
 				9CBC23851BD50A8200DDA598 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
